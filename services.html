@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - ShineMate Laundry</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+    nav a:hover {
+      background-color: #575757;
+    }
+    .content {
+      padding: 20px;
+    }
+    .service-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .service-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 250px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .service-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .service-card h3 {
+      margin: 10px 0;
+      font-size: 1.2em;
+    }
+    .service-card p {
+      font-size: 0.9em;
+      color: #555;
+    }
+    .service-card .price {
+      font-size: 1.1em;
+      color: #4CAF50;
+      font-weight: bold;
+    }
+    .duvet-sizes {
+      margin-top: 20px;
+      text-align: left;
+    }
+    .duvet-sizes h4 {
+      font-size: 1.1em;
+      margin-bottom: 10px;
+    }
+    .duvet-sizes ul {
+      list-style: none;
+      padding: 0;
+    }
+    .duvet-sizes ul li {
+      margin: 5px 0;
+      font-size: 0.9em;
+      color: #333;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: relative;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Services</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="content">
+    <h2>What We Offer</h2>
+    <div class="service-container">
+      <!-- Service 1: Wash & Fold -->
+      <div class="service-card">
+        <img src="images/washandfold.jpg" alt="Wash & Fold">
+        <h3>Wash & Fold</h3>
+        <p>We wash and fold your clothes with care, ensuring they are fresh and clean.</p>
+        <p class="price">Ksh 500 per busket.</p>
+      </div>
+      <!-- Service 2: Dry Cleaning -->
+      <div class="service-card">
+        <img src="images/dry-cleaning.jpg" alt="Dry Cleaning">
+        <h3>Dry Cleaning</h3>
+        <p>Professional dry cleaning for delicate fabrics and special garments.</p>
+        <p class="price">We can talk for last prices.</p>
+      </div>
+      <!-- Service 3: Ironing -->
+      <div class="service-card">
+        <img src="images/ironing.jpeg" alt="Ironing">
+        <h3>Ironing</h3>
+        <p>We iron your clothes to perfection, leaving them wrinkle-free and crisp.</p>
+        <p class="price">Please contact us for exact prices.</p>
+      </div>
+      <!-- Service 4: Duvet Cleaning -->
+      <div class="service-card">
+        <img src="images/duvet.jpeg" alt="Duvet Cleaning">
+        <h3>Duvet Cleaning</h3>
+        <p>Deep cleaning for your duvets to keep them fresh and hygienic.</p>
+        <p class="price">Prices are listed below.</p>
+        <div class="duvet-sizes">
+          <h4>Available Sizes:</h4>
+          <ul>
+            <li>3x6 - Ksh 300</li>
+            <li>4x6 - Ksh 350</li>
+            <li>5x6 - Ksh 400</li>
+            <li>6x6 - Ksh 500</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Service 5: Stain Removal -->
+      <div class="service-card">
+        <img src="images/stain-removal-tips.jpg" alt="Stain Removal">
+        <h3>Stain Removal</h3>
+        <p>Specialized stain removal services for tough stains.</p>
+        <p class="price">Please call for exact prices.</p>
+      </div>
+      <!-- Service 6: Special Fabric Care -->
+      <div class="service-card">
+        <img src="images/specialfabric.jpeg" alt="Special Fabric Care">
+        <h3>Special Fabric Care</h3>
+        <p>Custom care for delicate and special fabrics like silk and wool.</p>
+        <p class="price">Ksh 200 per item.</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2023 ShineMate Laundry. All rights reserved.</p>
+  </footer>
+</body>
+</html>
